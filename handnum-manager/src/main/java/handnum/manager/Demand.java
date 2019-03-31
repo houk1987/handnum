@@ -7,11 +7,11 @@ package handnum.manager;
  */
 public class Demand {
 
-    private String number;
+    private final String number;
 
-    private String material;
+    private final String material;
 
-    private String project;
+    private final String project;
 
     private double num;
 
@@ -36,5 +36,9 @@ public class Demand {
 
     public double getNum() {
         return num;
+    }
+
+    public void setNum(double num) {
+        this.num = num;
     }
 }

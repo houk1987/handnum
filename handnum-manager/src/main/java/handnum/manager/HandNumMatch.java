@@ -4,5 +4,5 @@ public interface HandNumMatch {
 
     boolean isMatch(Demand demand);
 
-    double match(Demand demand);
+    void match(Demand demand);
 }
